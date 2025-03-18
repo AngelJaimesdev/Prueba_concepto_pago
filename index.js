@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     agregarEstilosGlobales();
 
     // Crear botón de pago y modal
-    const payButton = crearBoton("Pagar Ahora", "pay-button", abrirModal);
+    const payButton = crearBoton("Pagar", "pay-button", abrirModal);
     const modal = crearModal();
 
     // Agregar elementos al DOM
